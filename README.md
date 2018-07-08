@@ -10,22 +10,22 @@
 
 ## 角色功能实现：
  
- #管理员：    
+ # 管理员：    
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)   
  
- #教官：   
+ # 教官：   
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)   
  
- #学生：   
+ # 学生：   
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)     
  
- #导师：   
+ # 导师：   
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_4.jpg)   
  
- #通用功能模块：   
+ # 通用功能模块：   
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_5.jpg)
  
- #后期可根据需要拓展其他业务
+ # 后期可根据需要拓展其他业务
 
 ``` 注意：该项目目前使用element-ui@1.3.3+版本,所以最低兼容 Vue 2.3.0**
 ```
@@ -35,7 +35,7 @@
    ``` 由于使用了npm,所以需要安装node.js环境
 
    ``` 后期开源后端模板时候会解释后端需要的开发环境   
-
+   
 ## 开发
 ```bash
     # 克隆代码
