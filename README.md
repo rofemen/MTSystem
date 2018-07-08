@@ -7,76 +7,66 @@
 ## 前言
 本项目借鉴vue脚手架,比较是适合2次开发，功能包括：
 
-- 登陆（含MD5加密）
-- 权限控制,通过配置可以修改用户角色，不同角色提供不同功能
-- 角色划分：管理员（辅导员）、教官、学生、导师
-- 角色功能实现：
+
+## 角色功能实现：
  
- 管理员：
+ #管理员：
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)
  
- 教官：
- ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
+ #教官：
+ #![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
  
- 学生：
+ #学生：
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)
  
- 通用功能模块：
+ #导师：
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_4.jpg)
- 
-  教官
-切换主题，完全支持用户手动切换主题和记住主题
-- 全部数据进行本地json模拟，二次开发者，只需要把json路径替换成实际接口路径即可，即使是新手也能轻松搞定撸后台管理系统
-- 全部动态操作的按钮点击元素，都已经在控制台打印出相关参数，实际开发时把这些参数按需提交给后端接口即可
 
+ #通用功能模块：
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_5.jpg)
+ 
+ #后期可根据需要拓展其他业务
 
 ``` **注意：该项目目前使用element-ui@1.3.3+版本,所以最低兼容 Vue 2.3.0**
 ```
 
-## 功能(全部数据进行本地json模拟)
-- 系统说明
-- 登录/注销
-- 密码修改
-- 个人主页
-- 头像上传
-- 权限验证
-- 修改权限
-- 侧边栏
-- 面包屑
-- 富文本编辑器
-- 切换主题（点击头像下拉）
-- 表单校验、提交
-- 列表增删改查、排序、导出(后台管理系统基本功能)
-- 401，404重定向页面
-- 导出excel
-- views-tab
-- PC端更多功能即将开放……
-- 等后面有空再给大家开源一个vue的移动端项目，嘿嘿^_^
+## 开发环境
+   
+   #由于使用了npm,所以需要安装node.js环境
+
+``` ** 后期开源后端模板时候会解释后端需要的开发环境   
 
 ## 开发
 ```bash
     # 克隆代码
-    git clone https://github.com/lss5270/vue-admin-spa.git
+    git clone https://github.com/rofemen/MTSystem.git
     # 安装依赖
     npm install
-    #or 直接解压node_modules.7z到当前位置 （比较适合新手）。
 
-    # 本地开发 开启服务
+    **注意，如果安装依赖的时候速度太慢的话，可以切换到国内镜像，这样会快很多。
+    
+    #切换镜像    
+    第一步：npm install -g nrm --registry=https://registry.npm.taobao.org
+
+    接着 ：nrm use taobao
+
+    再试着：npm install
+    
+    **会发现下载速度快了很多
+
+
+    # 本地开发 首先编译运行
     npm run dev
-    #or 直接双击start.bat（比较适合新手）
-```
-```[下载node_modules](http://pan.baidu.com/s/1eSL4I8y)
-```
 
 浏览器访问 http://localhost:2018
 
 ## 发布
+
 ```bash
-  
     # 构建生产环境
     npm run build:prod
-    #or 直接双击build.bat（比较适合新手）
 ```
+
 ## 模拟运行正式环境
 ```bash
     # nginx环境下运行
@@ -103,21 +93,8 @@
 ```
 ## 关于UI系统
 ```
-    由于bootstrap不支持mvvm已弃用，本项目使用了全新的elementUI系统，具体使用方法参照以下官方链接:
+    本项目使用了全新的elementUI系统，具体使用方法参照以下官方链接:
     1.http://element.eleme.io/#/zh-CN/component/installation
-    
-```
-## 关于.vue文件中背景图片路径，打包到生产环境路径404的问题修复
-```
-    具体修复方法，参照Issues中的 #6问题
-    
-```
-## 关于学生模块的api接口
-```
-    1.学生模块功能使用了本地api接口，若想正常运行，请下载另外一个node项目（https://github.com/lss5270/vue-admin-spa-api），并且在本地启动该node 项目。
-    2.该node项目源码，相当于其他后端语言（例如java）提供增删查改接口的源代码。
-    3.不懂如何使用node项目的同学，可进群讨论
-    
 ```
 
 ## 目录结构
@@ -146,19 +123,9 @@
 ├── favicon.ico                // favicon图标
 ├── index.html                 // html模板
 └── package.json               // package.json
-
 ```
 
-
-## 状态管理
-目前只有用户信息、菜单权限、app配置相关状态使用vuex存储在全局，其它数据都由每个业务组件自己管理。
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2017-present, LSS
+Copyright (c) 2018-present, Rofe
 
 
 
