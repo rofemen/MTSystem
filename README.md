@@ -5,8 +5,8 @@
 ## 注意：该项目在node.js,6.0~6.11之间的稳定版即可.
 
 ## 前言
-本项目借鉴vue脚手架,比较是适合2次开发，功能包括：
-
+   
+   本项目借鉴vue脚手架,比较是适合2次开发
 
 ## 角色功能实现：
  
@@ -14,7 +14,7 @@
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)
  
  #教官：
- #![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
  
  #学生：
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)
