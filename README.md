@@ -10,19 +10,19 @@
 
 ## 角色功能实现：
  
- #管理员：
- ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)
+ #管理员：    
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)   
  
- #教官：
- ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
+ #教官：   
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)   
  
- #学生：
- ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)
+ #学生：   
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)     
  
- #导师：
- ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_4.jpg)
-
- #通用功能模块：
+ #导师：   
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_4.jpg)   
+ 
+ #通用功能模块：   
  ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_5.jpg)
  
  #后期可根据需要拓展其他业务
