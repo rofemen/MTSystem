@@ -11,11 +11,14 @@
 - 权限控制,通过配置可以修改用户角色，不同角色提供不同功能
 - 角色划分：管理员（辅导员）、教官、学生、导师
 - 角色功能实现：
-  管理员：1、用户信息管理包括（增删改查，批量导入导出，条件筛选）
-          2、课程管理（课程审批，课程信息管理）
-          3、辅导员评价详情
-  
-
+ 管理员：
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_1.jpg)
+ 教官：
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_2.jpg)
+ 学生：
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_3.jpg)
+ 通用功能模块：
+ ![Image text](https://raw.githubusercontent.com/rofemen/MTSystem/master/imageStroage/fun_4.jpg)
   教官
 切换主题，完全支持用户手动切换主题和记住主题
 - 全部数据进行本地json模拟，二次开发者，只需要把json路径替换成实际接口路径即可，即使是新手也能轻松搞定撸后台管理系统
