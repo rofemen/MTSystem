@@ -58,7 +58,7 @@
     # 本地开发 首先编译运行
     npm run dev
 
-浏览器访问 http://localhost:2018
+    浏览器访问 http://localhost:2018
 
 ## 发布
 
